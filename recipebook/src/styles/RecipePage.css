@@ -1,0 +1,125 @@
+.recipe-page {
+	display: flex;
+	flex-direction: column;
+	height: 100vh;
+  }
+  
+  .top-section {
+	position: relative;
+	background-size: cover;
+	background-position: center;
+	flex: 1;
+	min-height: 400px;
+  }
+  
+  .overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	background-color: rgba(0, 0, 0, 0.5);
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+  }
+  
+  .action-button {
+	background-color: rgba(255, 255, 255, 0.3) !important; /* Colore semi-trasparente */
+	border: none !important;
+	color: white !important;
+	padding: 10px;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 18px;
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	width: fit-content; /* Ensure button width fits the content */
+	margin-top: 10px; /* Margin to avoid sticking to the top */
+  }
+  
+  .back-button:hover {
+	background-color: rgba(255, 255, 255, 0.9); /* Colore leggermente meno trasparente al passaggio del mouse */
+  }
+  
+  .bottom-section {
+	background-color: white;
+	border-radius: 25px;
+	flex: 1;
+	margin-top: 15px;
+	min-height: 450px;
+  }
+  
+  .infoRecipe {
+	display: flex;
+	flex-direction: column;
+	align-items: flex-start;
+	justify-content: flex-end;
+	padding-bottom: 20px; /* Padding at the bottom */
+  }
+  
+  .recipeInfoSubTitle {
+	color: white !important;
+	font-weight: 200 !important;
+	margin-bottom: 10px; /* Space between subtitle and title */
+  }
+  
+  .recipeInfoTitle {
+	color: white;
+	font-weight: 600 !important;
+  }
+
+  .labelTitle {
+	font-weight: 600 !important;
+  }
+
+  .ingredient-list li {
+	padding: 5px 0;
+	font-size: 15px;
+  }
+
+  .detailsRecipe {
+	display: flex;
+	flex-direction: row;
+	gap: 20px;
+  }
+
+  .detailSubTitle{
+	font-size: 18px;
+	color: #8a8a8a ;
+  }
+
+  .detailTitle {
+	font-size: 25px;
+	color: #454545 ;
+  }
+
+  .FavouriteButton{
+	height: 50px;
+	width: 50px;
+    padding: 8px;
+    border-radius: 5px;
+    background-color: #FFF2E7;
+    color: #FE7F22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: border 0.1s;
+  }
+
+  .selected {
+    border: 2px solid #FE7F22;
+}
+
+.actionButtonContainer{
+	display: flex;
+	justify-content: space-between;
+}
+
+
+.bottomParte {
+	background-color: rgb(235,235,235);
+}
+  

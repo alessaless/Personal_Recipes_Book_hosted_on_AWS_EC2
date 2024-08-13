@@ -1,0 +1,13 @@
+.headerSubTitle {
+    font-weight: 200 !important;
+}
+
+.headerTitle {
+    font-weight: 600 !important;
+}
+
+.containerPlusButton {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

@@ -1,0 +1,36 @@
+.CategoryBox {
+    height: 80px;
+    margin: 8px;
+    border-radius: 15px;
+    background-color: #FFF2E7;
+    color: #FE7F22;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid transparent;
+    transition: border 0.1s;
+}
+
+.ContainerCategories {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.iconCategoryBox {
+    font-size: 28px;
+    font-weight: bolder;
+}
+
+.textCategoryBox {
+    font-size: 18px;
+    font-weight: bolder;
+}
+
+.reversedColorCategoryBox {
+    background-color: #FE7F22;
+    color: #FFF2E7;
+}
+
+.selected {
+    border: 2px solid #FE7F22;
+}
