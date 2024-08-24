@@ -16,6 +16,6 @@ Sono state quindi create le immagini Docker per il backend e il frontend, succes
 <p align="center">
   <img width="50" src="https://cdn.freebiesupply.com/logos/large/2x/aws-logo-logo-png-transparent.png">
   <img width="50" src="https://static-00.iconduck.com/assets.00/react-original-wordmark-icon-840x1024-vhmauxp6.png">
-  <img width="50" src="https://static-00.iconduck.com/assets.00/node-js-icon-454x512-nztofx17.png">
+  <img width="50" src="https://upload.wikimedia.org/wikipedia/commons/thumb/7/7e/Node.js_logo_2015.svg/2560px-Node.js_logo_2015.svg.png">
   <img width="50" src="https://cdn.icon-icons.com/icons2/2415/PNG/512/mongodb_original_wordmark_logo_icon_146425.png">
 </p>
